@@ -4,6 +4,7 @@ specifiers:
   '@ava/typescript': ^4.0.0
   '@clack/prompts': ^0.6.3
   '@rainbowatcher/eslint-config': 0.0.1-beta.13
+  '@types/node': ^18.15.11
   bumpp: ^9.1.0
   cac: ^6.7.14
   commitlint: ^17.5.1
@@ -21,6 +22,7 @@ dependencies:
 devDependencies:
   '@ava/typescript': 4.0.0
   '@rainbowatcher/eslint-config': 0.0.1-beta.13_vwh6htx42aidho2qgfca5u5rwm
+  '@types/node': 18.15.11
   bumpp: 9.1.0
   commitlint: 17.5.1
   eslint: 8.37.0

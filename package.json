@@ -58,6 +58,7 @@
   "devDependencies": {
     "@ava/typescript": "^4.0.0",
     "@rainbowatcher/eslint-config": "0.0.1-beta.13",
+    "@types/node": "^18.15.11",
     "bumpp": "^9.1.0",
     "commitlint": "^17.5.1",
     "eslint": "^8.37.0",
