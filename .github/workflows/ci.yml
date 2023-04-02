@@ -48,7 +48,7 @@ jobs:
           cache: pnpm
 
       - name: Install
-        run: pnpm ci
+        run: pnpm i --frozen-lockfile
 
       - name: Typecheck
         run: pnpm typecheck
@@ -75,7 +75,7 @@ jobs:
           cache: pnpm
 
       - name: Install
-        run: pnpm ci
+        run: pnpm i --frozen-lockfile
 
       - name: Build
         run: pnpm build
