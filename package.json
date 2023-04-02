@@ -1,0 +1,70 @@
+{
+  "name": "ts-cli-starter",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.1.0",
+  "description": "",
+  "author": "rainbowatcher <rainbow-w@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/rainbowatcher/ts-cli-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainbowatcher/ts-cli-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rainbowatcher/ts-cli-starter/issues"
+  },
+  "keywords": [
+    "ts-cli-starter"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "build": "vite build",
+    "lint": "eslint .",
+    "prepublishOnly": "pnpm build",
+    "release": "bumpp && npm publish",
+    "start": "jiti src/index.ts",
+    "test": "uvu -r jiti/register test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.6.3",
+    "meow": "^11.0.0"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^4.0.0",
+    "@rainbowatcher/eslint-config": "0.0.1-beta.13",
+    "bumpp": "^9.1.0",
+    "commitlint": "^17.5.1",
+    "eslint": "^8.37.0",
+    "husky": "^8.0.3",
+    "jiti": "^1.18.2",
+    "pkgroll": "^1.9.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.3",
+    "uvu": "^0.5.6"
+  }
+}

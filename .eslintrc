@@ -1,0 +1,7 @@
+{
+  "extends": "@rainbowatcher",
+  "ignorePatterns": [
+    ".vitepress/dist",
+    ".vitepress/cache"
+  ]
+}
