@@ -42,7 +42,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "build": "vite build",
+    "build": "pkgroll",
     "lint": "eslint .",
     "prepare": "husky install",
     "prepublishOnly": "pnpm build",
