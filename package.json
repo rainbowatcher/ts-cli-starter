@@ -44,6 +44,7 @@
     "docs:build": "vitepress build docs",
     "build": "vite build",
     "lint": "eslint .",
+    "prepare": "husky install",
     "prepublishOnly": "pnpm build",
     "release": "bumpp && npm publish",
     "start": "jiti src/index.ts",
@@ -52,7 +53,7 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.6.3",
-    "meow": "^11.0.0"
+    "cac": "^6.7.14"
   },
   "devDependencies": {
     "@ava/typescript": "^4.0.0",
@@ -63,7 +64,6 @@
     "husky": "^8.0.3",
     "jiti": "^1.18.2",
     "pkgroll": "^1.9.0",
-    "tsup": "^6.7.0",
     "typescript": "^5.0.3",
     "uvu": "^0.5.6"
   }
