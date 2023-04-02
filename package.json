@@ -40,12 +40,9 @@
     "dist"
   ],
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
     "build": "pkgroll",
     "lint": "eslint .",
     "prepare": "husky install",
-    "prepublishOnly": "pnpm build",
     "release": "bumpp && npm publish",
     "start": "jiti src/index.ts",
     "test": "uvu -r jiti/register test",
