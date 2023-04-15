@@ -33,6 +33,7 @@ npx degit https://github.com/rainbowatcher/ts-cli-starter.git <pkg-name>
    
 ```bash
 npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+npx husky add .husky/pre-commit 'npx lint-staged'
 ```
 
 3. Replace `ts-cli-starter` to your package name in package.json

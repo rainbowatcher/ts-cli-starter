@@ -60,8 +60,12 @@
     "eslint": "^8.38.0",
     "husky": "^8.0.3",
     "jiti": "^1.18.2",
+    "lint-staged": "^13.2.1",
     "pkgroll": "^1.9.0",
     "typescript": "^5.0.4",
     "uvu": "^0.5.6"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue,json}": "eslint --fix"
   }
 }
