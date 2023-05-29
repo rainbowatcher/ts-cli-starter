@@ -2,7 +2,7 @@
   "name": "ts-cli-starter",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.5.1",
+  "packageManager": "pnpm@8.6.0",
   "description": "",
   "author": "rainbowatcher <rainbow-w@qq.com>",
   "license": "MIT",
@@ -53,8 +53,8 @@
     "cac": "^6.7.14"
   },
   "devDependencies": {
-    "@rainbowatcher/eslint-config": "0.1.1",
-    "@types/node": "^18.16.14",
+    "@rainbowatcher/eslint-config": "0.2.1",
+    "@types/node": "^18.16.16",
     "bumpp": "^9.1.0",
     "commitlint": "^17.6.3",
     "eslint": "^8.41.0",
