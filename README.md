@@ -12,12 +12,12 @@
 - [DevDependencies](https://packagephobia.com/result?p=@ava/typescript,@rainbowatcher/eslint-config,bumpp,commitlint,eslint,husky,jiti,pkgroll,typescript,uvu)
   - `commitlint`: [![install size](https://packagephobia.com/badge?p=commitlint)](https://packagephobia.com/result?p=commitlint)
   - `typescript`: [![install size](https://packagephobia.com/badge?p=typescript)](https://packagephobia.com/result?p=typescript)
+  - `vitest`: [![install size](https://packagephobia.com/badge?p=vitest)](https://packagephobia.com/result?p=vitest)
   - `eslint` & `@rainbowatcher/eslint-config`: [![install size](https://packagephobia.com/badge?p=@rainbowatcher/eslint-config)](https://packagephobia.com/result?p=@rainbowatcher/eslint-config)
   - `pkgroll`: [![install size](https://packagephobia.com/badge?p=pkgroll)](https://packagephobia.com/result?p=pkgroll)
   - `bumpp`: [![install size](https://packagephobia.com/badge?p=bumpp)](https://packagephobia.com/result?p=bumpp)
   - `@types/node`: [![install size](https://packagephobia.com/badge?p=@types/node)](https://packagephobia.com/result?p=@types/node)
   - `jiti`: [![install size](https://packagephobia.com/badge?p=jiti)](https://packagephobia.com/result?p=jiti)
-  - `uvu`: [![install size](https://packagephobia.com/badge?p=uvu)](https://packagephobia.com/result?p=uvu)
   - `husky`: [![install size](https://packagephobia.com/badge?p=husky)](https://packagephobia.com/result?p=husky)
 
 ## Usage

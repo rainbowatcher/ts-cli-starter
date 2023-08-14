@@ -14,8 +14,10 @@
     "skipDefaultLibCheck": true
   },
   "include": [
-    "src",
-    "test"
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "test/**/*.ts",
+    "vitest.config.ts"
   ],
   "exclude": [
     "node_modules"
