@@ -54,7 +54,7 @@
     "eslint": "^8.52.0",
     "husky": "^8.0.3",
     "jiti": "^1.21.0",
-    "lint-staged": "^13.3.0",
+    "lint-staged": "^15.0.2",
     "pkgroll": "^2.0.1",
     "typescript": "^5.2.2",
     "vitest": "^0.34.6"
