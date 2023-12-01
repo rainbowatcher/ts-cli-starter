@@ -48,10 +48,10 @@
   },
   "devDependencies": {
     "@rainbowatcher/eslint-config": "0.3.4",
-    "@types/node": "^20.10.0",
+    "@types/node": "^20.10.2",
     "bumpp": "^9.2.0",
     "commitlint": "^18.4.3",
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "husky": "^8.0.3",
     "jiti": "^1.21.0",
     "lint-staged": "^15.1.0",
