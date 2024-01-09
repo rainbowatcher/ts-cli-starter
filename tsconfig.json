@@ -1,25 +1,25 @@
 {
-  "compilerOptions": {
-    "target": "es2018",
-    "module": "esnext",
-    "lib": [
-      "ESNext"
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "esnext",
+        "lib": [
+            "ESNext"
+        ],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "test/**/*.ts",
+        "vitest.config.ts"
     ],
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true
-  },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "test/**/*.ts",
-    "vitest.config.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "exclude": [
+        "node_modules"
+    ]
 }
