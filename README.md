@@ -4,6 +4,16 @@
 
 # ts-cli-starter
 
+## 🚀 Features
+
+- Minimal install sized Dependencies
+- VSCode compatible eslint configuration
+- Cross platform CI configuration
+- Pre-Commit lint
+- Auto Changelog generate
+- Smooth release experience
+- Complete package build config
+
 ## Install Size
 
 - [Dependencies](https://packagephobia.com/result?p=@clack/prompts,cac)
@@ -36,7 +46,7 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 npx husky add .husky/pre-commit 'npx lint-staged'
 ```
 
-3. Replace `ts-cli-starter` to your package name in package.json
+3. Global Replace `ts-cli-starter` to your package name in project
 4. Change the author name in `LICENSE`
 5. Clean up the READMEs and remove routes
 
