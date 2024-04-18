@@ -27,24 +27,25 @@ jobs:
       - name: Install
         run: pnpm i --frozen-lockfile
 
-      - name: Build
-        run: pnpm run build
-
       - name: Lint
         run: pnpm run lint
-
-      - name: Type Check
-        run: pnpm run typecheck
 
   test:
     runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
-        node: [18, 20]
         os: [ubuntu-latest]
+        node: [18, 20]
+        include:
+          # Active LTS + other OS
+          - os: macos-latest
+            node_version: 20
+          - os: windows-latest
+            node_version: 20
       fail-fast: false
 
+    name: 'Test: node-${{ matrix.node_version }}, ${{ matrix.os }}'
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
 
@@ -59,6 +60,9 @@ jobs:
 
       - name: Install
         run: pnpm i --frozen-lockfile
+
+      - name: Type Check
+        run: pnpm run typecheck
 
       - name: Build
         run: pnpm run build
