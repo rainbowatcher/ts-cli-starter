@@ -47,8 +47,9 @@ npx husky add .husky/pre-commit 'npx lint-staged'
 ```
 
 3. Global Replace `ts-cli-starter` to your package name in project
-4. Change the author name in `LICENSE`
-5. Clean up the READMEs and remove routes
+4. Change the author and repository address in `package.json`
+5. Change the author name in `LICENSE`
+6. Clean up the `README.md`
 
 ## License
 
