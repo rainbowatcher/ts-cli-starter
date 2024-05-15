@@ -40,7 +40,7 @@ npx degit https://github.com/rainbowatcher/ts-cli-starter.git <pkg-name>
 
 2. Install dependencies by using `pnpm install`
 3. Setup git hooks
-   
+
 ```bash
 npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 npx husky add .husky/pre-commit 'npx lint-staged'
@@ -49,7 +49,6 @@ npx husky add .husky/pre-commit 'npx lint-staged'
 3. Global Replace `ts-cli-starter` to your package name in project
 4. Change the author name in `LICENSE`
 5. Clean up the READMEs and remove routes
-
 
 ## License
 
