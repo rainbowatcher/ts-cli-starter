@@ -31,12 +31,10 @@ jobs:
         run: pnpm run lint
 
   test:
-    runs-on: ${{ matrix.os }}
-
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [18, 20]
+        node_version: [18, 20]
         include:
           # Active LTS + other OS
           - os: macos-latest
@@ -45,17 +43,20 @@ jobs:
             node_version: 20
       fail-fast: false
 
-    name: "Test: node-${{ matrix.node_version }}, ${{ matrix.os }}"
+    runs-on: ${{ matrix.os }}
+
+    name: "node-${{ matrix.node_version }}, ${{ matrix.os }}"
+
     steps:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
 
-      - name: Set node ${{ matrix.node }}
+      - name: Set node ${{ matrix.node_version }}
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node }}
+          node-version: ${{ matrix.node_version }}
           cache: pnpm
 
       - name: Install
