@@ -39,7 +39,8 @@
         "prepare": "simple-git-hooks",
         "changelog": "conventional-changelog -si CHANGELOG.md",
         "release": "bumpp --all -x 'pnpm changlog' && npm publish",
-        "start": "tsx src/index.ts",
+        "start": "node bin/cli.js",
+        "dev": "tsx src/index.ts",
         "test": "vitest",
         "typecheck": "tsc --noEmit"
     },
