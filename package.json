@@ -34,12 +34,12 @@
         "dist"
     ],
     "scripts": {
-        "build": "pkgroll",
+        "build": "tsup",
         "lint": "eslint .",
-        "prepare": "husky install",
+        "prepare": "simple-git-hooks",
         "changelog": "conventional-changelog -si CHANGELOG.md",
-        "release": "bumpp -all -x 'pnpm changlog' && npm publish",
-        "start": "jiti src/index.ts",
+        "release": "bumpp --all -x 'pnpm changlog' && npm publish",
+        "start": "tsx src/index.ts",
         "test": "vitest",
         "typecheck": "tsc --noEmit"
     },
@@ -48,6 +48,7 @@
         "cac": "^6.7.14"
     },
     "devDependencies": {
+        "@commitlint/config-conventional": "^19.2.2",
         "@rainbowatcher/eslint-config": "0.11.4",
         "@rainbowatcher/eslint-config-ignore": "0.11.4",
         "@rainbowatcher/eslint-config-js": "0.11.4",
@@ -60,14 +61,23 @@
         "commitlint": "^19.3.0",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.7.0",
-        "husky": "^9.1.2",
-        "jiti": "^1.21.6",
         "lint-staged": "^15.2.7",
-        "pkgroll": "^2.4.1",
+        "simple-git-hooks": "^2.11.1",
+        "tsup": "^8.2.4",
+        "tsx": "^4.17.0",
         "typescript": "^5.5.4",
         "vitest": "^2.0.4"
     },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged",
+        "commit-msg": "npx commitlint --edit $1"
+    },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx,vue,json}": "eslint --fix"
+        "*.{js,jsx,ts,tsx,vue,json}": "eslint"
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ]
     }
 }
