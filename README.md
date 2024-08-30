@@ -43,7 +43,7 @@ npx degit https://github.com/rainbowatcher/ts-cli-starter.git <pkg-name>
 3. Global Replace `ts-cli-starter` to your package name in project
 4. Change the author and repository address in `package.json`
 5. Change the author name in `LICENSE`
-6. Clean up the `README.md`
+6. Clean up the `README.md` and `CHANGELOG.md`
 
 ## License
 
