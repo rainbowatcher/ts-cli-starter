@@ -45,26 +45,26 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@clack/prompts": "^0.8.1",
+        "@clack/prompts": "^0.8.2",
         "cac": "^6.7.14"
     },
     "devDependencies": {
         "@commitlint/config-conventional": "^19.6.0",
-        "@rainbowatcher/eslint-config": "0.16.4",
-        "@rainbowatcher/eslint-config-ignore": "0.16.4",
-        "@rainbowatcher/eslint-config-js": "0.16.4",
-        "@rainbowatcher/eslint-config-json": "0.16.4",
-        "@rainbowatcher/eslint-config-md": "0.16.4",
-        "@rainbowatcher/eslint-config-prettier": "0.16.4",
-        "@rainbowatcher/eslint-config-ts": "0.16.4",
-        "@types/node": "^22.9.1",
+        "@rainbowatcher/eslint-config": "0.17.0",
+        "@rainbowatcher/eslint-config-ignore": "0.17.0",
+        "@rainbowatcher/eslint-config-js": "0.17.0",
+        "@rainbowatcher/eslint-config-json": "0.17.0",
+        "@rainbowatcher/eslint-config-md": "0.17.0",
+        "@rainbowatcher/eslint-config-prettier": "0.17.0",
+        "@rainbowatcher/eslint-config-ts": "0.17.0",
+        "@types/node": "^22.9.3",
         "bumpp": "^9.8.1",
         "commitlint": "^19.6.0",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.15.0",
         "simple-git-hooks": "^2.11.1",
         "tsup": "^8.3.5",
-        "typescript": "^5.6.3",
+        "typescript": "^5.7.2",
         "vitest": "^2.1.5"
     },
     "simple-git-hooks": {
