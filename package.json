@@ -57,7 +57,7 @@
         "@rainbowatcher/eslint-config-md": "0.17.0",
         "@rainbowatcher/eslint-config-prettier": "0.17.0",
         "@rainbowatcher/eslint-config-ts": "0.17.0",
-        "@types/node": "^22.9.3",
+        "@types/node": "^22.10.0",
         "bumpp": "^9.8.1",
         "commitlint": "^19.6.0",
         "conventional-changelog-cli": "^5.0.0",
