@@ -57,14 +57,14 @@
         "@rainbowatcher/eslint-config-md": "0.21.1",
         "@rainbowatcher/eslint-config-prettier": "0.21.1",
         "@rainbowatcher/eslint-config-ts": "0.21.1",
-        "@types/node": "^22.13.17",
+        "@types/node": "^22.14.0",
         "bumpp": "^10.1.0",
         "commitlint": "^19.8.0",
         "conventional-changelog-cli": "^5.0.0",
-        "eslint": "^9.23.0",
+        "eslint": "^9.24.0",
         "simple-git-hooks": "^2.12.1",
         "tsup": "^8.4.0",
-        "typescript": "^5.8.2",
+        "typescript": "^5.8.3",
         "vitest": "^3.1.1"
     },
     "simple-git-hooks": {
