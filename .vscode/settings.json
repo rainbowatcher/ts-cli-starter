@@ -12,4 +12,7 @@
         "jsonc",
         "markdown",
     ],
+    "cSpell.words": [
+        "tsdown",
+    ],
 }
