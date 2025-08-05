@@ -63,7 +63,7 @@
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.32.0",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.13.1",
+        "tsdown": "^0.13.3",
         "typescript": "^5.9.2",
         "vitest": "^3.2.4"
     },
