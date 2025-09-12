@@ -19,17 +19,6 @@
 - [Dependencies](https://packagephobia.com/result?p=@clack/prompts,cac)
   - `@clack/prompts`:[![install size](https://packagephobia.com/badge?p=@clack/prompts)](https://packagephobia.com/result?p=@clack/prompts)
   - `cac`: [![install size](https://packagephobia.com/badge?p=cac)](https://packagephobia.com/result?p=cac)
-- [DevDependencies](https://packagephobia.com/result?p=@rainbowatcher/eslint-config,@rainbowatcher/eslint-config-js,@rainbowatcher/eslint-config-json,@rainbowatcher/eslint-config-ts,@rainbowatcher/eslint-config-ignore,@rainbowatcher/eslint-config-prettier,@rainbowatcher/eslint-config-md,conventional-changelog-cli,bumpp,commitlint,eslint,husky,jiti,pkgroll,typescript,vitest)
-  - `typescript`: [![install size](https://packagephobia.com/badge?p=typescript)](https://packagephobia.com/result?p=typescript)
-  - `vitest`: [![install size](https://packagephobia.com/badge?p=vitest)](https://packagephobia.com/result?p=vitest)
-  - `commitlint`: [![install size](https://packagephobia.com/badge?p=commitlint)](https://packagephobia.com/result?p=commitlint)
-  - `eslint`: [![install size](https://packagephobia.com/badge?p=eslint)](https://packagephobia.com/result?p=eslint)
-  - `@rainbowatcher/eslint-config`
-  - `pkgroll`: [![install size](https://packagephobia.com/badge?p=pkgroll)](https://packagephobia.com/result?p=pkgroll)
-  - `bumpp`: [![install size](https://packagephobia.com/badge?p=bumpp)](https://packagephobia.com/result?p=bumpp)
-  - `@types/node`: [![install size](https://packagephobia.com/badge?p=@types/node)](https://packagephobia.com/result?p=@types/node)
-  - `jiti`: [![install size](https://packagephobia.com/badge?p=jiti)](https://packagephobia.com/result?p=jiti)
-  - `husky`: [![install size](https://packagephobia.com/badge?p=husky)](https://packagephobia.com/result?p=husky)
 
 ## Usage
 
