@@ -63,10 +63,10 @@
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.39.1",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.16.8",
+        "tsdown": "^0.17.0",
         "tsx": "^4.21.0",
         "typescript": "^5.9.3",
-        "vitest": "^4.0.14"
+        "vitest": "^4.0.15"
     },
     "simple-git-hooks": {
         "commit-msg": "npx commitlint --edit $1"
