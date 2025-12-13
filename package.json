@@ -61,7 +61,7 @@
         "bumpp": "^10.3.2",
         "commitlint": "^20.2.0",
         "conventional-changelog-cli": "^5.0.0",
-        "eslint": "^9.39.1",
+        "eslint": "^9.39.2",
         "simple-git-hooks": "^2.13.1",
         "tsdown": "^0.17.3",
         "tsx": "^4.21.0",
