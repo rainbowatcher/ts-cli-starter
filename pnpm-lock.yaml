@@ -12,8 +12,8 @@ importers:
         specifier: ^0.11.0
         version: 0.11.0
       cac:
-        specifier: ^6.7.14
-        version: 6.7.14
+        specifier: ^7.0.0
+        version: 7.0.0
     devDependencies:
       '@commitlint/config-conventional':
         specifier: ^20.4.3
