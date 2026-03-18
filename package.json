@@ -49,7 +49,7 @@
         "cac": "^6.7.14"
     },
     "devDependencies": {
-        "@commitlint/config-conventional": "^20.4.3",
+        "@commitlint/config-conventional": "^20.5.0",
         "@rainbowatcher/eslint-config": "0.21.1",
         "@rainbowatcher/eslint-config-ignore": "0.21.1",
         "@rainbowatcher/eslint-config-js": "0.21.1",
@@ -59,14 +59,14 @@
         "@rainbowatcher/eslint-config-ts": "0.21.1",
         "@types/node": "^24.12.0",
         "bumpp": "^10.4.1",
-        "commitlint": "^20.4.3",
+        "commitlint": "^20.5.0",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.39.4",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.21.2",
+        "tsdown": "^0.21.4",
         "tsx": "^4.21.0",
         "typescript": "^5.9.3",
-        "vitest": "^4.0.18"
+        "vitest": "^4.1.0"
     },
     "simple-git-hooks": {
         "commit-msg": "npx commitlint --edit $1"
