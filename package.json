@@ -45,7 +45,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@clack/prompts": "^1.5.0",
+        "@clack/prompts": "^1.5.1",
         "cac": "^6.7.14"
     },
     "devDependencies": {
@@ -64,9 +64,9 @@
         "eslint": "^9.39.4",
         "simple-git-hooks": "^2.13.1",
         "tsdown": "^0.22.1",
-        "tsx": "^4.22.3",
+        "tsx": "^4.22.4",
         "typescript": "^5.9.3",
-        "vitest": "^4.1.7"
+        "vitest": "^4.1.8"
     },
     "simple-git-hooks": {
         "commit-msg": "npx commitlint --edit $1"
