@@ -2,7 +2,7 @@
     "name": "ts-cli-starter",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@10.34.3",
+    "packageManager": "pnpm@10.34.4",
     "description": "",
     "author": "rainbowatcher <rainbow-w@qq.com>",
     "license": "MIT",
@@ -45,7 +45,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@clack/prompts": "^1.5.1",
+        "@clack/prompts": "^1.6.0",
         "cac": "^6.7.14"
     },
     "devDependencies": {
@@ -63,10 +63,10 @@
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.39.4",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.22.2",
+        "tsdown": "^0.22.3",
         "tsx": "^4.22.4",
         "typescript": "^5.9.3",
-        "vitest": "^4.1.8"
+        "vitest": "^4.1.9"
     },
     "simple-git-hooks": {
         "commit-msg": "npx commitlint --edit $1"
