@@ -20,6 +20,11 @@
   - `@clack/prompts`:[![install size](https://packagephobia.com/badge?p=@clack/prompts)](https://packagephobia.com/result?p=@clack/prompts)
   - `cac`: [![install size](https://packagephobia.com/badge?p=cac)](https://packagephobia.com/result?p=cac)
 
+## Requirements
+
+- Node.js `>= 22` — declared in the `engines` field. Node.js 20 is not supported since it reached end of life on 2026-04-30, and the build toolchain (`tsdown`) additionally needs `>= 22.18`.
+- pnpm 12 — the exact version is pinned in the `packageManager` field, so pnpm downloads and uses it automatically.
+
 ## Usage
 
 1. Clone this repository
