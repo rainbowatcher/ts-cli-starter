@@ -2,7 +2,7 @@
     "name": "ts-cli-starter",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@12.16.1",
+    "packageManager": "pnpm@12.18.0",
     "description": "",
     "author": "rainbowatcher <rainbow-w@qq.com>",
     "license": "MIT",
@@ -66,10 +66,10 @@
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.39.5",
         "simple-git-hooks": "^2.14.0",
-        "tsdown": "^0.23.4",
+        "tsdown": "^0.23.7",
         "tsx": "^4.23.15",
         "typescript": "^5.9.3",
-        "vitest": "^5.0.5"
+        "vitest": "^5.1.0"
     },
     "simple-git-hooks": {
         "commit-msg": "npx commitlint --edit $1"
