@@ -189,8 +189,8 @@ importers:
         specifier: ^1.9.0
         version: 1.9.0
       cac:
-        specifier: ^6.7.14
-        version: 6.7.14
+        specifier: ^7.1.1
+        version: 7.1.1
     devDependencies:
       '@commitlint/config-conventional':
         specifier: ^21.2.4
@@ -1533,16 +1533,8 @@ packages:
     engines: {node: '>=20.19.0'}
     hasBin: true
 
-  cac@6.7.14:
-    resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
-    engines: {node: '>=8'}
-
-  cac@7.0.0:
-    resolution: {integrity: sha512-tixWYgm5ZoOD+3g6UTea91eow5z6AAHaho3g0V9CNSNb45gM8SmflpAc+GRd1InC4AqN/07Unrgp56Y94N9hJQ==}
-    engines: {node: '>=20.19.0'}
-
-  cac@7.1.0:
-    resolution: {integrity: sha512-LMDU/U2yA4IPIY8KT0NsNPWEYZvAMkbgyspxJ6btJaYV+WMDOHAZCmB0lsTObiHaRS1V/ztKAl7+TSkTqXyeoA==}
+  cac@7.1.1:
+    resolution: {integrity: sha512-8zc+h51HxpodKsA7L4PpBNd+9qlrfuUcyUDE5a793BJfN4NZgwk7v9NmrY3ptZ+Sk0+ToigxSzkb47AsEgyizw==}
     engines: {node: '>=20.19.0'}
 
   callsites@3.1.0:
@@ -4151,7 +4143,7 @@ snapshots:
   bumpp@11.1.0:
     dependencies:
       args-tokenizer: 0.3.0
-      cac: 7.0.0
+      cac: 7.1.1
       jsonc-parser: 3.3.1
       package-manager-detector: 1.6.0
       semver: 7.7.4
@@ -4160,11 +4152,7 @@ snapshots:
       unconfig: 7.5.0
       yaml: 2.9.0
 
-  cac@6.7.14: {}
-
-  cac@7.0.0: {}
-
-  cac@7.1.0: {}
+  cac@7.1.1: {}
 
   callsites@3.1.0: {}
 
@@ -5647,7 +5635,7 @@ snapshots:
 
   tsdown@0.23.7(tsx@4.23.15)(typescript@5.9.3)(unrun@0.2.37):
     dependencies:
-      cac: 7.1.0
+      cac: 7.1.1
       defu: 6.1.7
       empathic: 2.1.0
       hookable: 6.1.2
